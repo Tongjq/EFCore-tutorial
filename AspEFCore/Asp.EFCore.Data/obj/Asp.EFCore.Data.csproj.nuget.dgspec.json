@@ -1,0 +1,120 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Code\\EFCore\\AspEFCore\\Asp.EFCore.Data\\Asp.EFCore.Data.csproj": {}
+  },
+  "projects": {
+    "D:\\Code\\EFCore\\AspEFCore\\Asp.EFCore.Data\\Asp.EFCore.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Code\\EFCore\\AspEFCore\\Asp.EFCore.Data\\Asp.EFCore.Data.csproj",
+        "projectName": "Asp.EFCore.Data",
+        "projectPath": "D:\\Code\\EFCore\\AspEFCore\\Asp.EFCore.Data\\Asp.EFCore.Data.csproj",
+        "packagesPath": "C:\\Users\\tongjunqiang\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\EFCore\\AspEFCore\\Asp.EFCore.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\PROGRAM FILES\\DOTNET\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tongjunqiang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\Code\\EFCore\\AspEFCore\\AspEFCore.Domain\\AspEFCore.Domain.csproj": {
+                "projectPath": "D:\\Code\\EFCore\\AspEFCore\\AspEFCore.Domain\\AspEFCore.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\Code\\EFCore\\AspEFCore\\AspEFCore.Domain\\AspEFCore.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Code\\EFCore\\AspEFCore\\AspEFCore.Domain\\AspEFCore.Domain.csproj",
+        "projectName": "AspEFCore.Domain",
+        "projectPath": "D:\\Code\\EFCore\\AspEFCore\\AspEFCore.Domain\\AspEFCore.Domain.csproj",
+        "packagesPath": "C:\\Users\\tongjunqiang\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\EFCore\\AspEFCore\\AspEFCore.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\PROGRAM FILES\\DOTNET\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\tongjunqiang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
